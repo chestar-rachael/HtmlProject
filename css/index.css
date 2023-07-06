@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black; 
+}
+.analysis{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#bck{ 
+    width: 1360px;
+    height: 600px;
+    z-index: -1;
+    position: absolute;
+    display: flex;
+    margin-left: -9.8%;
+    opacity: .5;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+  .navbar{
+     width: 1000px;
+    height: 80px; 
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: auto;
+    text-align: center;
+    color: red; 
+ } 
+.icon{
+    width: 200px;
+    float:left ;
+    height: 75px;
+}
+/****/
+.logo{
+    color: #4DBDEB;
+    font-size: 30px;
+    font-family: Arial;
+    float: left;
+
+}
+
+.menu{
+    margin-top: 5%;
+    text-align: center;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+}
+
+.blog{
+    width: 350px;
+    height: 40px;
+    margin: 4px;
+    padding: 10pxpx;
+    text-align: center;
+    border-collapse: collapse;
+    background: white;
+    float: none;
+    margin-top: 20px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+
+.bttn{
+    margin: auto;
+    height: 40px;
+    width: 150px;
+    border-collapse: collapse;
+    background: orange;
+    float: none;
+    margin-top: 10px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+
+}
+
+h1{
+    color:#4DBDEB;
+    font-family: 'Times New Roman';
+    font-size: 22px;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+}
+
+ table{
+    font-family: Arial;
+    border-collapse: collapse;
+    width: 100%;
+    opacity: .8;
+    margin: 15px;
+    padding: 10px;
+} 
+
+ td, th{
+    border-collapse: collapse;
+    margin: 15px;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+table, td, th{
+    background-color:lightgray;
+} 
+
+.container{
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial;
+    box-sizing: border-box;
+    display: table;
+}
+
+.link{
+    color: #4DBDEB;
+    display: flex;
+    font-size: 18px;
+}
+
+.data{
+    text-align: center;
+
+}
+
+
+
+
+
